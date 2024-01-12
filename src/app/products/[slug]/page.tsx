@@ -107,6 +107,10 @@ export default async function Page({
         <div className="text-6xl pb-5 pt-8 subpixel-antialiased font-serif ">
           {product.name}
         </div>
+        {/* Display the price of the product with a Rupee symbol */}
+        <div className="text-5xl font-bold text-slate-900">
+          ₹ {product.price}
+        </div>
         <div
           className="first-line:uppercase first-line:tracking-widest
                   first-letter:text-8xl first-letter:font-bold first-letter:text-slate-900
